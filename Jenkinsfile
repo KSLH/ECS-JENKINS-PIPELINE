@@ -35,7 +35,7 @@ pipeline {
         }
     }
 }
-#### ECS 다이렉트 배포할 경우
+
 stage('deploy-ecs') {
     agent { label 'default' }
     steps {
