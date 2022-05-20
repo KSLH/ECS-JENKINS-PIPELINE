@@ -47,5 +47,3 @@ stage('deploy-ecs') {
     }
 }
     }
-}
-
