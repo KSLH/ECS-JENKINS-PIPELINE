@@ -35,8 +35,6 @@ pipeline {
         }
     }
 }
-    }
-
         stage('deploy-ecs') {
     agent { label 'default' }
     steps {
