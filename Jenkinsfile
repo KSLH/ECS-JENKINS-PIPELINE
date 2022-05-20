@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        git url: "git@github.com:hodoolabs/projectname.git", branch: "*/dev", credentialsId: "jenkins-root"
+                        git url: "git@github.com:", branch: "*/dev", credentialsId: "jenkins-root"
                         sh "sudo rm -rf ./.git"
                         env.cloneResult=true
                     } catch (error) {
