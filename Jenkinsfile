@@ -35,6 +35,7 @@ pipeline {
         }
     }
 }
+    }
 
 stage('deploy-ecs') {
     agent { label 'default' }
@@ -44,3 +45,7 @@ stage('deploy-ecs') {
             sh 'echo "https://${REGION}.${CONSOLE}/ecs/v2/clusters/${CLUSTER}/services/${SERVICE}/health?region=${REGION}"'
         }
     }
+}
+    }
+}
+
