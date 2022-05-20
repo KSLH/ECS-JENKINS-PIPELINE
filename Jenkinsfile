@@ -37,7 +37,7 @@ pipeline {
 }
     }
 
-stage('deploy-ecs') {
+        stage('deploy-ecs') {
     agent { label 'default' }
     steps {
         withAWS(role: ASSUME_ROLE, roleAccount: ACCOUNT, externalId:'externalId') {
