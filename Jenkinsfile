@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        git url: "git@github.com:KSLH/ECS-JENKINS-PIPELINE.git:", branch: "*/main", credentialsId: "jenkins"
+                        git url: "git@github.com:KSLH/ECS-JENKINS-PIPELINE.git:", branch: "*/main", credentialsId: "song"
                         sh "sudo rm -rf ./.git"
                         env.cloneResult=true
                     } catch (error) {
