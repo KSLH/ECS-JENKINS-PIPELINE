@@ -12,8 +12,8 @@
       ]
     }
   ],
-  "memory": "10",
-  "cpu": "10",
+  "memory": "512",
+  "cpu": "512",
   "family": "service",
   "requiresCompatibilities": ["FARGATE"],
   "networkMode": "awsvpc"
