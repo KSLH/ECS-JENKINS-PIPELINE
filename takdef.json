@@ -1,0 +1,21 @@
+{
+  "containerDefinitions": [
+    {
+      "image": "REGISTRY",
+      "name": "service",
+      "portMappings": [
+        {
+          "hostPort": 5000,
+          "containerPort": 5000,
+          "protocol": "tcp"
+        }
+      ]
+    }
+  ],
+  "memory": "10",
+  "cpu": "10",
+  "family": "service",
+  "requiresCompatibilities": ["FARGATE"],
+  "networkMode": "awsvpc"
+}
+
