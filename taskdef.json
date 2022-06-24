@@ -1,5 +1,5 @@
 {
-  "executionRoleArn": "aws:iam::421524381668:role/AWSProton-my-proton-test-clo-ECSTaskExecutionRole-11JZ026KO79VB"
+  "executionRoleArn": "aws:iam::421524381668:role/AWSProton-my-proton-test-clo-ECSTaskExecutionRole-11JZ026KO79VB",
   "containerDefinitions": [
     {
       "image": "REGISTRY",
